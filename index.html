@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Red/Green</title>
+    <link rel="stylesheet" type="text/css" href="http://reset5.googlecode.com/hg/reset.min.css">
+    <style type="text/css">
+      .wrapper {
+        width: 625px;
+        margin: 0px auto;
+      }
+
+      .iphone {
+        width: 286px;
+        height: 612px;
+        background: url('iphone-5s.svg') center center no-repeat;
+        background-size: contain;
+      }
+
+      .iphone video {
+        position: relative;
+        top: 82px;
+        left: 19px;
+      }
+
+      .left { float: left; }
+      .right { float: right; }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="core.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="iphone left">
+        <video class="one" width="250" autoplay>
+          <source src="one.mp4" type="video/mp4">
+        </video>
+      </div> 
+
+      <div class="iphone right">
+        <video class="two" width="250">
+          <source src="two.mp4" type="video/mp4">
+        </video>
+      </div>       
+    </div>
+  </body>
+</html>
